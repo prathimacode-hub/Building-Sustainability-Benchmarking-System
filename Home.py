@@ -18,8 +18,8 @@ st.set_page_config(
 
 # IMG_URL = 'https://www.talkdesk.com/resources/reports/talkdesk-contact-center-kpi-benchmarking-report/'
 
-IMG_URL = 'https://www.talkdesk.com/resources/reports/talkdesk-contact-center-kpi' \
-          '-benchmarking-report/'
+# IMG_URL = 'https://www.talkdesk.com/resources/reports/talkdesk-contact-center-kpi' \
+#           '-benchmarking-report/'
 
 # IMG_URL = 'https://www.istockphoto.com/photo/on-the-table-are-a-notebook-a-pen-and-a-book-the-book-says-sustainability' \
 #           '-gm1330264758-413737731?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%' \
