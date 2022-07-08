@@ -18,4 +18,4 @@ PAGE_TITLE = "Dashboard"
 SUSTAINABILITY_REPORT_WORD_CLOUD = "Sustainability Report Word Cloud"
 TAB_LABELS = [SUSTAINABILITY_REPORT_WORD_CLOUD]
 
-st.markdown("<h1 style='text-align: center; color: #ff8080;margin-top:-50px;font-weight:bold'>OMDENA-SUSTAINLABS</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: #4169e1;margin-top:-50px;font-weight:bold'>OMDENA-SUSTAINLABS</h1>", unsafe_allow_html=True)
