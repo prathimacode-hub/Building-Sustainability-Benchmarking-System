@@ -25,8 +25,8 @@ st.set_page_config(
 #           '-gm1330264758-413737731?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%' \
 #           '3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsustainability-kpi-reports&utm_term=sustainability%20kpi%20reports%3A%3A%3A' 
 
-response = requests.get(IMG_URL)
-img = Image.open(BytesIO(response.content))
+# response = requests.get(IMG_URL)
+# img = Image.open(BytesIO(response.content))
 
 st.markdown("<h1 style='text-align: center; color: #ff8080;margin-top:-50px;'>OMDENA-SUSTAINLABS</h1>", unsafe_allow_html=True)
 st.write("")
