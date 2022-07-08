@@ -65,12 +65,13 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
     st.markdown('<h4>Word Cloud of a Modified Sustainability Report</h4>', unsafe_allow_html=True)
     st.image("word_cloud.png", width=500)
     st.markdown('<h4>Top Words in Headlines versus Count</h4>', unsafe_allow_html=True)
-    st.image("top_words_in_headlines_versus_count.png", width=500)
+    st.image("top_words_in_headlines_versus_count.png", width=700)
     
     st.subheader('INFERENCES')
  
     st.markdown("""
     <p style="font-size:15px">
+    
     - By observing the word cloud(1st graph) keyword extracted are properties, tenants which give information that the company is a Property Management company.
     
     - This company has emphasized more on energy consumption which is one of most frequently used word.
@@ -87,6 +88,7 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
     
     st.markdown("""
     <p style="font-size:15px">
+    
     - Super small font size extraction is giving poor results. Metrics fell <50%.
     
     - EasyOcr works best for text documents
