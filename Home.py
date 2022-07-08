@@ -16,8 +16,10 @@ st.set_page_config(
 #           'banner-gm1387135660-445156283?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top' \
 #           '&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbenchmarking&utm_term=benchmarking%3A%3A%3A' 
 
-IMG_URL = 'https://www.talkdesk.com/resources/reports/talkdesk-contact-center-kpi-benchmarking-report/'
+# IMG_URL = 'https://www.talkdesk.com/resources/reports/talkdesk-contact-center-kpi-benchmarking-report/'
 
+IMG_URL = 'https://www.talkdesk.com/resources/reports/talkdesk-contact-center-kpi' \
+          '-benchmarking-report/'
 
 # IMG_URL = 'https://www.istockphoto.com/photo/on-the-table-are-a-notebook-a-pen-and-a-book-the-book-says-sustainability' \
 #           '-gm1330264758-413737731?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%' \
