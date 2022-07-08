@@ -19,6 +19,45 @@ TAB_LABELS = [SUSTAINABILITY_REPORT_WORD_CLOUD]
 
 st.markdown("<h2 style='text-align: center; color: #4169e1;margin-top:-50px;font-weight:bold'>OMDENA-SUSTAINLABS</h2>", unsafe_allow_html=True)
 
+def get_active_tab():
+    query_params = st.experimental_get_query_params()
+
+    tab = "tab" in query_params and query_params["tab"][0]
+    
+    if tab not in TAB_LABELS:
+        tab = TAB_LABELS[0]
+        st.experimental_set_query_params(tab=tab)
+
+    return tab
+
+
+def render_tabs_nav(active_tab=None):
+    st.markdown(
+        '<link rel="stylesheet" '
+        'href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" '
+        'integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" '
+        'crossorigin="anonymous">',
+        unsafe_allow_html=True,
+    )
+    li_items = "".join(
+        f"""
+        <li class="nav-item">
+            <a style={'width':100} class="nav-link{' active' if t == active_tab else ''}" aria-current="page"
+            target="_self" href="/{PAGE_TITLE}?tab={t}">{t}</a>
+        </li>
+        """
+        for t in TAB_LABELS
+    )
+    tabs_html = f"""
+        <ul class="nav nav-tabs" "nav-justified">
+        {li_items}
+        </ul>
+        <br>
+    """
+    st.markdown(tabs_html, unsafe_allow_html=True)
+
+active_tab = get_active_tab()
+render_tabs_nav(active_tab)
 
 if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
  
