@@ -100,7 +100,7 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
         
         st.download_button(label="Export_Report",
                            data=PDFbyte,
-                           file_name="test.pdf",
+                           file_name="modified_sustainability_report.pdf",
                            mime='application/octet-stream')
     
 #     st.subheader('Raw data')
