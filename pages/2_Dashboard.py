@@ -98,7 +98,7 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
     with open("modified_sustainability_report.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
         
-        st.download_button(label="Export_Report",
+        st.download_button(label="Download Report",
                            data=PDFbyte,
                            file_name="modified_sustainability_report.pdf",
                            mime='application/octet-stream')
