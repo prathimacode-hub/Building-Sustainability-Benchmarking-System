@@ -28,7 +28,7 @@ st.set_page_config(
 # response = requests.get(IMG_URL)
 # img = Image.open(BytesIO(response.content))
 
-st.markdown("<h1 style='text-align: center; color: #ff8080;margin-top:-50px;'>OMDENA-SUSTAINLABS</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #4169e1;margin-top:-50px;'>OMDENA-SUSTAINLABS</h1>", unsafe_allow_html=True)
 st.write("")
 st.write("")
 st.subheader('BUILDING SUSTAINABILITY BENCHMARKING SYSTEM GLOBALLY')
@@ -59,5 +59,6 @@ with col1:
     A collected dataset of 40,000 sustainability reports that is cleaned and labelled has been provided and \
     further enabling to gather additional data. 
     """,  unsafe_allow_html=True)
-# with col4:
+
+    # with col4:
 #     st.image(img.resize((400, 500)))
