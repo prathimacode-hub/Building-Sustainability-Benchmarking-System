@@ -1,4 +1,4 @@
-#import osmnx as ox
+import osmnx as ox
 import plotly.offline as pyo
 import streamlit as st
 from io import BytesIO
