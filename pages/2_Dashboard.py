@@ -96,12 +96,12 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
     """, unsafe_allow_html=True)
     
     with open("modified_sustainability_report.pdf", "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
-
-    st.download_button(label="Export_Report",
-                    data=PDFbyte,
-                    file_name="test.pdf",
-                    mime='application/octet-stream')
+        PDFbyte = pdf_file.read()
+        
+        st.download_button(label="Export_Report",
+                           data=PDFbyte,
+                           file_name="test.pdf",
+                           mime='application/octet-stream')
     
 #     st.subheader('Raw data')
 #     data = st.checkbox('Show Raw Data')
