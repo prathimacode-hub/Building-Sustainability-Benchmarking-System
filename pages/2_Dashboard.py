@@ -67,7 +67,7 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
     st.markdown('<h4>Top Words in Headlines versus Count</h4>', unsafe_allow_html=True)
     st.image("top_words_in_headlines_versus_count.png", width=700)
     
-    st.subheader('INFERENCES')
+    st.subheader('Inferences')
  
     st.markdown("""
     <p style="font-size:15px">
@@ -84,7 +84,7 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
     
     """, unsafe_allow_html=True)
     
-    st.subheader('SUMMARY')
+    st.subheader('Summary')
     
     st.markdown("""
     <p style="font-size:15px">
@@ -94,6 +94,14 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
     - EasyOcr works best for text documents
     
     """, unsafe_allow_html=True)
+    
+    with open("modified_sustainability_report.pdf", "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
+
+    st.download_button(label="Export_Report",
+                    data=PDFbyte,
+                    file_name="test.pdf",
+                    mime='application/octet-stream')
     
 #     st.subheader('Raw data')
 #     data = st.checkbox('Show Raw Data')
