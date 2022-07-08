@@ -59,5 +59,5 @@ with col1:
     A collected dataset of 40,000 sustainability reports that is cleaned and labelled has been provided and \
     further enabling to gather additional data. 
     """,  unsafe_allow_html=True)
-with col4:
-    st.image(img.resize((400, 500)))
+# with col4:
+#     st.image(img.resize((400, 500)))
