@@ -6,6 +6,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+#ff8080
 
 st.sidebar.header("Timeline")
 
@@ -14,7 +15,7 @@ st.subheader("About the project")
 
 st.markdown(f'Timeline from Start of the Week: ')
 
-st.markdown('<h1 style=color:#ff8080;">Week 1-2</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style=color:#4169e1;">Week 1-2</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
 * 
@@ -22,7 +23,7 @@ st.markdown("""
 * 
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 style=color:#ff8080;">Week 3-4</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style=color:#4169e1;">Week 3-4</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
 * 
