@@ -24,15 +24,21 @@ st.markdown("""
 
 [Prathima Kadari](https://www.linkedin.com/in/prathima-kadari/)  
 
-[Mulugheta Solomon](https://www.linkedin.com/in/)
-
 [Saad Salami](https://www.linkedin.com/in/)  
 
 [Sam Faar](https://www.linkedin.com/in/)  
 
 [Simon Mackenzie](https://www.linkedin.com/in/) 
 
+[Mehbooba C](https://www.linkedin.com/in/)  
+
+[Abhay Bhadani](https://www.linkedin.com/in/)
+
 [Ayush Bihani](https://www.linkedin.com/in/)  
+
+[Mulugheta Solomon](https://www.linkedin.com/in/)
+
+[Diana R](https://www.linkedin.com/in/)
 
 [Esha Priyadarshi](https://www.linkedin.com/in/) 
 
@@ -40,9 +46,9 @@ st.markdown("""
 
 [David Elvis](https://www.linkedin.com/in/)
 
-[Laurenz Tophof](https://www.linkedin.com/in/arvind-kay/)  
+[Laurenz Tophof](https://www.linkedin.com/in/)  
 
-[Carl Terence Valdellon](https://www.linkedin.com/in/arvind-kay/)  
+[Carl Terence Valdellon](https://www.linkedin.com/in/)  
 
 """)
 
