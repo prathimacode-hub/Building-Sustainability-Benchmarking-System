@@ -16,17 +16,17 @@ st.markdown(f'Timeline from the Start of the Week: ')
 st.markdown('<h3 style=color:#4169e1;">Week 1-2</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
-* 
-* 
+* Exploring the provided 500 sustainability reports
+* Extracting the data from saasb.org and analyzing it
 * 
 """, unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Week 3-4</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
-* 
-* 
-* 
+* Extracting the data from sustainabilityreports.com and responsibilityreports.com
+* Comparing the websites and working on gathering information out of the reports extracted
+* Reflecting the insights into the dashboard for better understandings
 * 
 """, unsafe_allow_html=True)
 
