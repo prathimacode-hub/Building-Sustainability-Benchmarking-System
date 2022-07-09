@@ -1,7 +1,6 @@
 from pathlib import Path
 import pandas as pd
 import numpy as np
-import plotly_express as px
 import streamlit as st
 import chart_studio.plotly as py
 
@@ -11,6 +10,7 @@ st.set_page_config(
 )
 
 PAGE_TITLE = "Viz Data Collection"
+import plotly_express as px
 DATA_COLLECTION_INSIGHTS = "Data Collection Insights"
 TAB_LABELS = [DATA_COLLECTION_INSIGHTS]
 
@@ -101,7 +101,7 @@ if active_tab == DATA_COLLECTION_INSIGHTS:
     st.image("report_sr_data.jpg", width=800)
     
     st.markdown('<h4>Country Vs Counts</h4>', unsafe_allow_html=True)
-    
+    st.image("countries_sr_data.jpg", width=800)
     
     
 # 3_Dashboard.py  
@@ -209,6 +209,8 @@ if active_tab == DATA_COLLECTION_INSIGHTS:
 #     st.image("report_sr_data.jpg", width=800)
     
 #     st.markdown('<h4>Country Vs Counts</h4>', unsafe_allow_html=True)
+#     st.image("countries_sr_data.jpg", width=800)
+
 
 # else:
 
