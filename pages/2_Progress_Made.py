@@ -70,7 +70,6 @@ Following are the activities that we need focus on:
 * 
 """, unsafe_allow_html=True)
 
-
 st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
@@ -115,12 +114,6 @@ Following are the activities that we need focus on:
 
 """, unsafe_allow_html=True)
 
-st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
-
-st.markdown(""" 
-   *  
-""", unsafe_allow_html=True)
-
 
 
 #st.markdown(f'Task 4:')
@@ -130,7 +123,9 @@ st.markdown('<h2 style=color:#4169e1;">Task 4 - Data Visualizations</h2>', unsaf
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
-* 
+* Taken key takeaways from the data extracted to bring out the points
+* Created a streamlit app to bring all the works into a single space
+* Showcased all the factors based on the progress done in data collection and data preprocessing
 """, unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Next Steps</h1>', unsafe_allow_html=True)
@@ -138,16 +133,9 @@ st.markdown('<h3 style=color:#4169e1;">Next Steps</h1>', unsafe_allow_html=True)
 st.markdown(""" 
 
 Following are the activities that we need focus on:
-* 
+* Add additional factors along with interactiveness for the upcoming customized data
+* Grab some insights from modelling process to bring clear understanding of the approach that measures the impact
 """, unsafe_allow_html=True)
-
-
-st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
-
-st.markdown(""" 
-   *  
-""", unsafe_allow_html=True)
-
 
 
 
