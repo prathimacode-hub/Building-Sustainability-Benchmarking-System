@@ -51,7 +51,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
 #st.markdown(f'Task 2:')
 
 st.markdown('<h2 style=color:#4169e1;">Task 2 - Data Pre=Processing</h2>', unsafe_allow_html=True)
@@ -59,7 +58,12 @@ st.markdown('<h2 style=color:#4169e1;">Task 2 - Data Pre=Processing</h2>', unsaf
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
-* 
+* Data analysis of sustainability reports.
+* Tabular data successfully extracted using Camelot.
+* Pytesseract was able to extract the text correctly from pages where we have multiple columns in one page, but it did not extract tables/figures.
+* OCR technique worked extremely well and gave a confidence level of 99% in the np array. Extraction was great.
+* ESG bert model has being used to filter sentences with keyword topics and ESG-bert topics.
+* Achieved accuracy for text extraction using EasyOCR is 75% -99%.
 """, unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Next Steps</h1>', unsafe_allow_html=True)
@@ -67,15 +71,11 @@ st.markdown('<h3 style=color:#4169e1;">Next Steps</h1>', unsafe_allow_html=True)
 st.markdown(""" 
 
 Following are the activities that we need focus on:
-* 
+* Ongoing work on text extraction and improvement on the meaningfulness of extracted text.
+* Ongoing work and more focus required on the efficient extraction of chemical formula and symbols. 
+* Improvement in the meaningfulness of extracted text.
+* Multiprocessing of PDF text extraction.
 """, unsafe_allow_html=True)
-
-st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
-
-st.markdown(""" 
-   *   
-""", unsafe_allow_html=True)
-
 
 
 #st.markdown(f'Task 3:')
@@ -123,7 +123,6 @@ st.markdown("""
    * https://towardsdatascience.com/easy-fine-tuning-of-transformers-for-named-entity-recognition-d72f2b5340e3
    * https://www.pinecone.io/learn/sentence-embeddings/
 """, unsafe_allow_html=True)
-
 
 
 #st.markdown(f'Task 4:')
