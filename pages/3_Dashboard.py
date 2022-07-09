@@ -127,13 +127,13 @@ else:
     
     st.subheader('Data extracted from Responsibilityreports.com')
     
-    st.markdown('<h4>We get city names from this Website</h4>', unsafe_allow_html=True)
+    st.markdown('<h4>Top sector is Consumer Goods followed by the Financial</h4>', unsafe_allow_html=True)
     st.image("industry_rr_data.jpg", width=800)
 
-    st.markdown('<h4>Top sector is Consumer Goods followed by the Financial</h4>', unsafe_allow_html=True)
+    st.markdown('<h4>Around 325 of them don’t have any industry values. Out of this, 164 don’t provide any sector details</h4>', unsafe_allow_html=True)
     st.image("sector_rr_data.jpg", width=800)
     
-    st.markdown('<h4>Around 325 of them don’t have any industry values. Out of this, 164 don’t provide any sector details</h4>', unsafe_allow_html=True)
+    st.markdown('<h4>Location Vs Counts</h4>', unsafe_allow_html=True)
     st.image("location_rr.jpg", width=800)
     
     
