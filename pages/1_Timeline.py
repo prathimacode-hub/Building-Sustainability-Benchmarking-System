@@ -6,8 +6,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-#ff8080
-
 st.sidebar.header("Timeline")
 
 st.subheader("Overview")
