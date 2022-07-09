@@ -8,7 +8,9 @@ st.set_page_config(
 
 st.sidebar.header("Tasks Progress")
 
-st.markdown(f'Task 1:')
+#st.markdown(f'Task 1:')
+
+st.markdown('<h2 style=color:#4169e1;">Task 1</h2>', unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
@@ -49,7 +51,9 @@ st.markdown("""
    
   
   
-st.markdown(f'Task 2:')
+#st.markdown(f'Task 2:')
+
+st.markdown('<h2 style=color:#4169e1;">Task 2</h2>', unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
@@ -74,7 +78,9 @@ st.markdown("""
 
 
 
-st.markdown(f'Task 3:')
+#st.markdown(f'Task 3:')
+
+st.markdown('<h2 style=color:#4169e1;">Task 3</h2>', unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
@@ -99,7 +105,9 @@ st.markdown("""
 
 
 
-st.markdown(f'Task 4:')
+#st.markdown(f'Task 4:')
+
+st.markdown('<h2 style=color:#4169e1;">Task 4</h2>', unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
