@@ -25,8 +25,11 @@ st.set_page_config(
 #           '-gm1330264758-413737731?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%' \
 #           '3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsustainability-kpi-reports&utm_term=sustainability%20kpi%20reports%3A%3A%3A' 
 
-# response = requests.get(IMG_URL)
-# img = Image.open(BytesIO(response.content))
+IMG_URL = 'https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-1.2.1&' \
+          'ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80/'
+
+response = requests.get(IMG_URL)
+img = Image.open(BytesIO(response.content))
 
 st.markdown("<h1 style='text-align: center; color: #4169e1;margin-top:-50px;'>OMDENA-SUSTAINLABS</h1>", unsafe_allow_html=True)
 st.write("")
@@ -34,6 +37,7 @@ st.write("")
 st.subheader('BUILDING SUSTAINABILITY BENCHMARKING SYSTEM GLOBALLY')
 st.markdown('<h5>PROBELM STATEMENT:</h5>', unsafe_allow_html=True)
 col1, col2, col3, col4 = st.columns([4,0.1,0.2,2.5])
+
 with col1:
     
     
@@ -60,5 +64,6 @@ with col1:
     further enabling to gather additional data. 
     """,  unsafe_allow_html=True)
 
-    # with col4:
-#     st.image(img.resize((400, 500)))
+with col4:
+    
+    st.image(img.resize((400, 500)))
