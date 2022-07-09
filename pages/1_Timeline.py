@@ -29,6 +29,7 @@ st.markdown("""
 * Analyzing the data of sustainability reports.
 * Tabular data was successfully extracted using Camelot and Pytesseract.
 * OCR and ESG bert model gave good efficiency
+* Worked on the KPI matching part with SustainLab list
 * Created Streamlit application to visualize the data and modelling process
 * Reflecting the insights into the dashboard for better understandings
 """, unsafe_allow_html=True)
