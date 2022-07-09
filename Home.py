@@ -25,8 +25,12 @@ st.set_page_config(
 #           '-gm1330264758-413737731?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%' \
 #           '3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsustainability-kpi-reports&utm_term=sustainability%20kpi%20reports%3A%3A%3A' 
 
-IMG_URL = 'https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-1.2.1&' \
-          'ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80/'
+# IMG_URL = 'https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-1.2.1&' \
+#           'ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80/'
+
+IMG_URL = 'https://www.istockphoto.com/photo/on-the-table-are-a-notebook-a-pen-and-a-book-the-book-says-sustainability-gm1330264758-413737731?' \
+          'utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos' \
+          '%2Fsustainability-firm-reports&utm_term=sustainability%20firm%20reports%3A%3A%3A/'
 
 response = requests.get(IMG_URL)
 img = Image.open(BytesIO(response.content))
@@ -51,7 +55,9 @@ with col1:
     society and finance helping them to become more sustainable has a huge impact for our planet and our society. \
     
     The main problem is that the data of sustainability reports do not follow any standard format and important \
-    figures are presented in a very unstructured way. Steps to be followed for a defined workflow : \
+    figures are presented in a very unstructured way. 
+    
+    Steps to be followed for a defined workflow :
 
     - Identify important sentences, in which important information such as actions or measurements are reported. \
 
