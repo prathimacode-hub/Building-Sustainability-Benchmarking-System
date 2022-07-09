@@ -21,9 +21,9 @@ Business Intelligence Systems which interests the data from various sources and 
 We also checked csrhub.com from where we have extracted the company and industrial details, here we could get the company metadata (more than 18K companies are listed). We're 
 trying to webscrape but it's time consuming. It's not a free service and include signup process but as a open source, companies are listed out there which gives the metadata. 
 We get company mame, website details, industry sector and so on. The session gets expired periodically so we should see if we can extract specific industries or sectors. 
-* We also extracted the company metadata from responsibilityreports.com, it listed around 2000+ companies. We have also compared the companies list with the ones in saasb.org and we could 
+* We also extracted the company metadata from responsibility-reports.com, it listed around 2000+ companies. We have also compared the companies list with the ones in saasb.org and we could 
 recognize to find 500+ odd companies. Using this we could identify the document type in saasb.org and extract the report using it. But for the remaining 1500+ which aren't available 
-from saasb, we can pick up data from responsibilityreports.com directly.
+from saasb, we can pick up data from responsibility-reports.com directly.
 """, unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Next Steps</h1>', unsafe_allow_html=True)
@@ -42,19 +42,14 @@ st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
 
 st.markdown(""" 
    * http://SASB.org
-   * http://Responsibilityreports.com
-   * http://sustainabilityreports.com
+   * https://www.responsibilityreports.com/
+   * https://www.sustainability-reports.com/
    * https://www.online-report.com/
    * https://www.thecsrfoundation.org/   
-   * https://www.corporateregister.com/   
+   * https://www.corporateregister.com/
+   * https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
 """, unsafe_allow_html=True)
 
-
-st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
-
-st.markdown(""" 
-   * 
-""", unsafe_allow_html=True)
 
 
 #st.markdown(f'Task 2:')
@@ -81,6 +76,7 @@ st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
 st.markdown(""" 
    *   
 """, unsafe_allow_html=True)
+
 
 
 #st.markdown(f'Task 3:')
@@ -118,6 +114,13 @@ Following are the activities that we need focus on:
 - Connecting correct KPIs with their values.
 
 """, unsafe_allow_html=True)
+
+st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
+
+st.markdown(""" 
+   *  
+""", unsafe_allow_html=True)
+
 
 
 #st.markdown(f'Task 4:')
