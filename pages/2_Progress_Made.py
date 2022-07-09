@@ -10,7 +10,7 @@ st.sidebar.header("Tasks Progress")
 
 #st.markdown(f'Task 1:')
 
-st.markdown('<h2 style=color:#4169e1;">Task 1</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style=color:#4169e1;">Task 1 - Data Collection</h2>', unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
@@ -45,28 +45,8 @@ st.markdown("""
    * http://Responsibilityreports.com
    * http://sustainabilityreports.com
    * https://www.online-report.com/
-   * https://www.thecsrfoundation.org/
+   * https://www.thecsrfoundation.org/   
    * https://www.corporateregister.com/   
-""", unsafe_allow_html=True)
-   
-  
-  
-#st.markdown(f'Task 2:')
-
-st.markdown('<h2 style=color:#4169e1;">Task 2</h2>', unsafe_allow_html=True)
-
-st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
-
-st.markdown(""" 
-* 
-""", unsafe_allow_html=True)
-
-st.markdown('<h3 style=color:#4169e1;">Next Steps</h1>', unsafe_allow_html=True)
-
-st.markdown(""" 
-
-Following are the activities that we need focus on:
-* 
 """, unsafe_allow_html=True)
 
 
@@ -77,10 +57,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+#st.markdown(f'Task 2:')
 
-#st.markdown(f'Task 3:')
-
-st.markdown('<h2 style=color:#4169e1;">Task 3</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style=color:#4169e1;">Task 2 - Data Pre=Processing</h2>', unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
@@ -104,10 +83,46 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+#st.markdown(f'Task 3:')
+
+st.markdown('<h2 style=color:#4169e1;">Task 3 - Modelling</h2>', unsafe_allow_html=True)
+
+st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
+
+st.markdown(""" 
+* Significant progress has been made in the KPI matching part i.e. connecting sentences with the closest KPIs present in the list provided by Sustain Lab. 
+""", unsafe_allow_html=True)
+
+st.markdown('<h3 style=color:#4169e1;">Next Steps</h1>', unsafe_allow_html=True)
+
+st.markdown(""" 
+
+Following are the activities that we need focus on:
+
+* The preprocessed datasets and the final KPI list will be passed into the pipeline.
+* Match sentences in the dataset with the KPI using multiple approaches. These may produce different KPI matches. In that case take mode.
+
+- Fuzzy Name Matching
+
+- Sentence Embeddings
+
+- N-gram Embeddings
+
+* Apply NER based methods to extract values – measurements, date, time, orgs, indicators, etc. Using dependency parsers to match these extracted values to the KPI.
+* We will iteratively improve results by focusing on the problem areas. Some of these we already know :
+
+- Resolving ambiguous KPI's.
+
+- Multi-KPI's present in a single sentence.
+
+- Connecting correct KPI's with their values.
+
+""", unsafe_allow_html=True)
+
 
 #st.markdown(f'Task 4:')
 
-st.markdown('<h2 style=color:#4169e1;">Task 4</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style=color:#4169e1;">Task 4 - Data Visualizations</h2>', unsafe_allow_html=True)
 
 st.markdown('<h3 style=color:#4169e1;">Progress Made</h1>', unsafe_allow_html=True)
 
