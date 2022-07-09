@@ -111,11 +111,11 @@ Following are the activities that we need focus on:
 * Apply NER based methods to extract values – measurements, date, time, orgs, indicators, etc. Using dependency parsers to match these extracted values to the KPI.
 * We will iteratively improve results by focusing on the problem areas. Some of these we already know :
 
-- Resolving ambiguous KPI's.
+- Resolving ambiguous KPIs.
 
-- Multi-KPI's present in a single sentence.
+- Multi-KPIs present in a single sentence.
 
-- Connecting correct KPI's with their values.
+- Connecting correct KPIs with their values.
 
 """, unsafe_allow_html=True)
 
