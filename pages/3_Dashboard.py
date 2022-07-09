@@ -109,10 +109,10 @@ else:
     st.subheader('Data extracted from SASB.org')
 
     st.markdown('<h4>Data from following Countries, top being US with 925 reports followed by Canada and Britain</h4>', unsafe_allow_html=True)
-    st.image("countries_saas_data.jpg", width=500)
+    st.image("countries_saas_data.jpg", width=800)
 
     st.markdown('<h4>Data for following Industries, Commercial Banks being the top</h4>', unsafe_allow_html=True)
-    st.image("industries_saas_data.jpg", width=500)
+    st.image("industries_saas_data.jpg", width=800)
 
     st.markdown("""
     <p style="font-size:15px">
@@ -122,31 +122,31 @@ else:
     """, unsafe_allow_html=True)
     
     st.markdown('<h4>Document Type Vs Counts</h4>', unsafe_allow_html=True)
-    st.image("document_type.jpg", width=500)
+    st.image("document_type.jpg", width=800)
     
     
     st.subheader('Data extracted from Responsibilityreports.com')
     
     st.markdown('<h4>We get city names from this Website</h4>', unsafe_allow_html=True)
-    st.image("industry_rr_data.jpg", width=500)
+    st.image("industry_rr_data.jpg", width=800)
 
     st.markdown('<h4>Top sector is Consumer Goods followed by the Financial</h4>', unsafe_allow_html=True)
-    st.image("sector_rr_data.jpg", width=500)
+    st.image("sector_rr_data.jpg", width=800)
     
     st.markdown('<h4>Around 325 of them don’t have any industry values. Out of this, 164 don’t provide any sector details</h4>', unsafe_allow_html=True)
-    st.image("location_rr.jpg", width=500)
+    st.image("location_rr.jpg", width=800)
     
     
     st.subheader('Data extracted from Sustainabilityreports.com')
     
     st.markdown('<h4>Sector Name Vs Counts</h4>', unsafe_allow_html=True)
-    st.image("sector_sr_data.jpg", width=500)
+    st.image("sector_sr_data.jpg", width=800)
 
     st.markdown('<h4>Report Name Vs Counts</h4>', unsafe_allow_html=True)
-    st.image("report_sr_data.jpg", width=500)
+    st.image("report_sr_data.jpg", width=800)
     
     st.markdown('<h4>Country Vs Counts</h4>', unsafe_allow_html=True)
-    st.image("countries_sr_data.jpg", width=500)
+    st.image("countries_sr_data.jpg", width=800)
     
 
 
