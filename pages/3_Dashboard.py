@@ -13,6 +13,9 @@ st.set_page_config(
 PAGE_TITLE = "Dashboard"
 SUSTAINABILITY_REPORT_WORD_CLOUD = "Sustainability Report Word Cloud"
 TAB_LABELS = [SUSTAINABILITY_REPORT_WORD_CLOUD]
+DATA_COLLECTION_INSIGHTS = "Data Collection Insights"
+TAB_LABELS = [DATA_COLLECTION_INSIGHTS]
+
 
 st.markdown("<h2 style='text-align: center; color: #4169e1;margin-top:-50px;font-weight:bold'>OMDENA-SUSTAINLABS</h2>", unsafe_allow_html=True)
 
@@ -99,5 +102,51 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
                            file_name="modified_sustainability_report.pdf",
                            mime='application/octet-stream')
         
-        
+             
+if active_tab == DATA_COLLECTION_INSIGHTS:
+    
+    st.subheader('Data extracted from SASB.org')
+
+    st.markdown('<h4>Data from following Countries, top being US with 925 reports followed by Canada and Britain</h4>', unsafe_allow_html=True)
+    st.image("countries_saas_data.png", width=500)
+
+    st.markdown('<h4>Data for following Industries, Commercial Banks being the top</h4>', unsafe_allow_html=True)
+    st.image("industries_saas_data.png", width=500)
+
+    st.markdown("""
+    <p style="font-size:15px">
+    
+    -  There are 185 different types of documents. Majority companies use Corporate Responsibility Reports and Sustainability Reports as the document type
+    
+    """, unsafe_allow_html=True)
+    
+    st.markdown('<h4>Document Type Vs Counts</h4>', unsafe_allow_html=True)
+    st.image("document_type.png", width=500)
+    
+    
+    st.subheader('Data extracted from Responsibilityreports.com')
+    
+    st.markdown('<h4>We get city names from this Website</h4>', unsafe_allow_html=True)
+    st.image("industry_rr_data.png", width=500)
+
+    st.markdown('<h4>Top sector is Consumer Goods followed by the Financial</h4>', unsafe_allow_html=True)
+    st.image("sector_rr_data.png", width=500)
+    
+    st.markdown('<h4>Around 325 of them don’t have any industry values. Out of this, 164 don’t provide any sector details</h4>', unsafe_allow_html=True)
+    st.image("location_rr.png", width=500)
+    
+    
+    st.subheader('Data extracted from Sustainabilityreports.com')
+    
+    st.markdown('<h4>Sector Name Vs Counts</h4>', unsafe_allow_html=True)
+    st.image("sector_sr_data.png", width=500)
+
+    st.markdown('<h4>Report Name Vs Counts</h4>', unsafe_allow_html=True)
+    st.image("report_sr_data.png", width=500)
+    
+    st.markdown('<h4>Country Vs Counts</h4>', unsafe_allow_html=True)
+    st.image("countries_sr_data.png", width=500)
+    
+
+
         
