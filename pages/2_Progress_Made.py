@@ -114,6 +114,16 @@ Following are the activities that we need focus on:
 
 """, unsafe_allow_html=True)
 
+st.markdown('<h3 style=color:#4169e1;">References</h1>', unsafe_allow_html=True)
+
+st.markdown(""" 
+   * https://aaai-kdf2020.github.io/assets/pdfs/kdf2020_paper_24.pdf
+   * https://huggingface.co/nbroad/ESG-BERT
+   * https://towardsdatascience.com/keybert-keyword-extraction-using-bert-a6dc3dd38caf
+   * https://towardsdatascience.com/easy-fine-tuning-of-transformers-for-named-entity-recognition-d72f2b5340e3
+   * https://www.pinecone.io/learn/sentence-embeddings/
+""", unsafe_allow_html=True)
+
 
 
 #st.markdown(f'Task 4:')
