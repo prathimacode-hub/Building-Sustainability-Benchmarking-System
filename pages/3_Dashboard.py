@@ -17,6 +17,7 @@ TAB_LABELS = [SUSTAINABILITY_REPORT_WORD_CLOUD, DATA_COLLECTION_INSIGHTS]
 
 st.markdown("<h2 style='text-align: center; color: #4169e1;margin-top:-50px;font-weight:bold'>OMDENA-SUSTAINLABS</h2>", unsafe_allow_html=True)
 
+@st.cache
 def get_active_tab():
     query_params = st.experimental_get_query_params()
 
@@ -101,7 +102,9 @@ if active_tab == SUSTAINABILITY_REPORT_WORD_CLOUD:
                            mime='application/octet-stream')
         
              
-if active_tab == DATA_COLLECTION_INSIGHTS:
+#if active_tab == DATA_COLLECTION_INSIGHTS:
+    
+else:
     
     st.subheader('Data extracted from SASB.org')
 
